@@ -33,6 +33,13 @@ a{
     justify-content: space-between;
     background: #fff;
     box-shadow: 0px 3px 3px rgba(0,0,0,0.05);
+    transition: 0.5s;;
+}
+.mobile-header-section.on{
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.5s;;
 }
 .mobile-logo-section{
     margin: 0 10px;
@@ -120,9 +127,18 @@ a{
 .pc-header-section{
     width: 100%;
     height: 80px;    
+    background: #fff;
     box-shadow: 0px 3px 3px rgba(0,0,0,0.05);
     white-space: nowrap;
     display: none;
+    z-index: 1;
+}
+
+.pc-header-section{
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.5s;;
 }
 .container{
     width: 90%;
@@ -183,6 +199,10 @@ a{
     text-align: center;
     margin: 30px 0;
 }
+.advertisement-section>a{
+    display: inline-block;
+    width: 100%;
+}
 .advertisement-img{
     width: 65%;
 }
@@ -231,8 +251,15 @@ a{
     text-align: center;
     padding: 10px 0;    
     border-radius: 10px;
-    background: #eaeff3;
+    background: #2e82f2;
     font-size: 18px;
+    color: #fff;
+}
+.category-txt>a{
+    color: #fff;
+}
+.click>a{
+    color: #f00;
 }
 .category-wrap{
     width: 85%;
@@ -532,7 +559,8 @@ a{
         /* width: 100%;
         text-align: center;
         */
-        margin: 0 ; 
+        margin: 0;
+        margin-top: 80px; 
     }
     .advertisement-img{
         width: 30%;
@@ -586,7 +614,7 @@ a{
     .category-section{
         width: 50%;
     }
-    .category-txt{
+    /* .category-txt{
         width: 90%;
         margin: 0 auto;
         text-align: center;
@@ -594,7 +622,8 @@ a{
         border-radius: 10px;
         background: #eaeff3;
         font-size: 18px;
-    }
+    } */
+
     .category-wrap{
         width: 85%;
         margin: 0 auto;
@@ -629,18 +658,10 @@ a{
     .border-infor-section{
         font-size: 15px;
     }
-    .reple-icon{}
-    .reple-count{}
-    .good-icon{}
-    .good-count{}
-    .border-title-section{}
-    .border-title{
-        /* max-width: 315px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        font-weight: normal; */
+    
+    .border-title{        
         font-size: 17px;
+        max-width: 400px;
     }
     .border-title>a:hover{
         color: #2e82f2;
@@ -667,9 +688,9 @@ a{
     .consulting-box{
         width:30%;
         position: relative;
-        margin: 30px 0;
-       
+        margin: 30px 0;       
     }
+
     .consulting-img-section{
         width: 100%;
         height: 240px;
