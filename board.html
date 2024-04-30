@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/board.css">    
+    <title>개발에 대한 모든 것 codingIn</title>
+    <script src="https://kit.fontawesome.com/3367894b6f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrap">
+        <!--mobile header section-->
+        <header class="mobile-header-section">
+            <div class="mobile-logo-section">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="logo" class="mobile-logo">
+                </a>                
+            </div>
+            <div class="ham-nav-wrap">
+                <div class="ham-nav">
+                    <span class="ham"></span>
+                    <span class="ham"></span>
+                    <span class="ham"></span>
+                </div>
+
+                <nav class="ham-nav-section">
+                    <div class="mobile-menu-top-section">
+                        <div class="mobile-menu-logo-img-section">
+                            <img src="img/logo.png" alt="logo-img" class="mobile-menu-logo-img">
+                        </div>
+                        <div class="close-btn">X</div>
+                    </div><!--mobile-menu-top-section-->
+                    <ul class="mobile-gnb-ul">
+                        <li class="mobile-gnb-li">
+                            <a href="boardList.html">Q&A</a>
+                        </li>
+                        <li class="mobile-gnb-li">
+                            <a href="javascript:void(0)">지식</a>
+                        </li>
+                        <li class="mobile-gnb-li">
+                            <a href="javascript:void(0)">커뮤니티</a>
+                        </li>
+                        <li class="mobile-gnb-li">
+                            <a href="javascript:void(0)">이벤트</a>
+                        </li>
+                        <li class="mobile-gnb-li">
+                            <a href="javascript:void(0)">공지사항</a>
+                        </li>
+                        <li class="mobile-gnb-li">
+                            <a href="javascript:void(0)">JOBS</a>
+                        </li>
+                    </ul>
+                    <div class="mobile-login-section">
+                        <button class="mobile-btn login-btn">로그인</button>
+                        <button class="mobile-btn signup-btn">회원가입</button>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <header class="pc-header-section">
+            <div class="container">
+
+                <div class="pc-logo-section">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="logo-img" class="pc-logo-img">
+                    </a>
+                </div>
+                <nav class="pc-nav-section">
+                    <ul class="pc-gnb-ul">
+                        <li class="pc-gnb-li">
+                            <a href="boardList.html">Q&A</a>
+                        </li>
+                        <li class="pc-gnb-li">
+                            <a href="javascript:void(0)">지식</a>
+                        </li>
+                        <li class="pc-gnb-li">
+                            <a href="javascript:void(0)">커뮤니티</a>
+                        </li>
+                        <li class="pc-gnb-li">
+                            <a href="javascript:void(0)">이벤트</a>
+                        </li>
+                        <li class="pc-gnb-li">
+                            <a href="javascript:void(0)">공지사항</a>
+                        </li>
+                        <li class="pc-gnb-li">
+                            <a href="javascript:void(0)">JOBS</a>
+                        </li>
+                    </ul>
+                    <div class="search-section">
+                        <input type="text" name="search" class="search" placeholder="검색">
+                    </div>
+                    <div class="pc-login-section">
+                        <button class="pc-btn pc-login-btn">로그인</button>
+                        <button class="pc-btn pc-signup-btn">회원가입</button>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="advertisement-section">
+            <a href="javascript:void(0)">
+                <img src="img/slide/slide.jpg" alt="advertisement-img" class="advertisement-img">
+            </a>
+        </div>  
+        <!--main-->
+        <main class="main">            
+            <section class="main-section">
+                <article class="board-section">
+                    <h2 class="board-title">java 독학이 가능할까요?</h2>
+                    <div class="b-infor-section">
+                        <div class="b-profile-img-section">
+                            <img src="img/profile/profile06.png" alt="b-profile-img" class="b-profile-img">
+                            <div class="b-infor">
+                                <h4 class="b-nick-name"><a href="javascript:void(0)">뉴오커</a></h4>
+                                <span class="b-date-time">2분 전</span>
+                            </div> 
+                        </div>
+                                               
+                        <div class="border-icon-section">
+                            <i class="fa-solid fa-eye count-icon"></i> <span class="count">5</span>  <!--조회수 --> 
+                            <i class="fa-regular fa-comment-dots reple-icon"></i> <span class="reple-count">2</span><!--댓글수-->
+                            <i class="fa-regular fa-thumbs-up"></i> <span class="good-count">0</span> <!--좋아요-->
+                        </div>
+                    </div>
+                    <div class="board-detail-section">
+
+                        <div class="board-content">
+                            사정상 국비교육은 듣지 못하고 있는 상황입니다. 혹시 자바 독학해서 취업하신 분들 계실까요?
+                        </div>
+                       
+                        
+
+                        <div class="tag-section">
+                            <span class="tag-name">#java</span>
+                            <span class="tag-name">#기타</span>
+                        </div>
+                    </div>
+                    <div class="reple-wrap">
+                        <p class="reple-count-section">2개의 답변</p>
+                        <div class="reple-write">
+                            <div class="reple-profile">
+                                <img src="img/profile/profile_login.png" alt="profile_login" class="profile_login">
+                            </div>
+                            <textarea class="reple-content-section" readonly>로그인 후 작성이 가능합니다.</textarea>
+                            <button type="button" class="reple-btn">작성</button>
+                        </div>
+                        
+                        <div class="reple-list-section">
+                            
+
+                            <div class="reple">
+                                <div class="reple-infor">
+                                    <div class="reple-m-infor-section">
+                                        <img src="img/profile/profile08.png" alt="reple-m-img" class="reple-m-img">
+                                        <div class="reple-m">
+                                            <div class="reple-m-nick-name"><a href="javascript:void(0)">백엔드끝판왕</a></div>
+                                            <span class="reple-date-time">48분 전</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="reple-goodnbad">
+                                        <span class="reple-good"><i class="fa-regular fa-thumbs-up good-icon"></i>2</span>
+                                        <span class="reple-bad"><i class="fa-regular fa-thumbs-down bad-icon"></i>0</span>                          
+                                    </div>
+                                </div>
+                                <div class="reple-content">
+                                    <p class="reple-txt">
+                                        독학이야 할 수는 있겠지만 독학해서 네카라쿠배나 대기업간다는 생각은 버리세요~                                    </p>
+                                     
+                                </div>                                
+                            </div><!--reple-->
+                                <div class="set-rereple">
+                                    댓글작성하기
+                                </div>
+                                <div class="re-reple-section">
+                                    <div class="re-reple">
+                                        <div class="re-reple-infor">
+                                            <div class="re-reple-m-infor-section">
+                                                <img src="img/profile/profile03.png" alt="re-reple-m-img" class="re-reple-m-img">
+                                                <div class="re-reple-m">
+                                                    <div class="re-reple-m-nick-name"><a href="javascript:void(0)">팩트폭행범</a></div>
+                                                    <span class="re-reple-date-time">32분 전</span>
+                                                </div>
+                                            </div>
+                                            
+                                            
+                                        </div>
+                                        <div class="re-reple-content">
+                                            <p class="re-reple-txt">
+                                                네카라쿠배는 얼씬도 못하고 중소기업도 힘들수도 있어요
+                                            </p>
+                                            
+                                        </div>                                
+                                    </div><!--reple-->                                    
+                                </div>
+                        </div>
+                    </div><!--reple-wrap-->
+                </article><!--board-section-->
+
+                <article class="board-list-section">
+                    <h3 class="board-list-txt">Q&A 목록 </h3>
+                    <table class="board-list">
+                        <tr>
+                            <td class="board-list-title">
+                                <a href="javascript:void(0)">react에 대해 질문이 있습니다!</a>
+                            </td>
+                            <td class="board-nick-name">
+                                <a href="javascript:void(0)">
+                                    <img src="img/profile/profile08.png" alt="profile-img" class="profile-img">
+                                    <span class="nick-name">코딩맨</span>
+                                </a>
+                            </td>
+                            <td class="board-date-time">
+                                2분 전
+                            </td>
+                            <td class="board-infor-icon">                                
+                                <i class="fa-regular fa-comment-dots reple-icon"></i> <span class="reple-count">0</span>
+                                <i class="fa-solid fa-eye count-icon"></i> <span class="count-count">2</span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="board-list-title">
+                                <a href="javascript:void(0)">오류가 나는데 혹시 봐주실 분?</a>
+                            </td>
+                            <td class="board-nick-name">
+                                <a href="javascript:void(0)">
+                                    <img src="img/profile/profile03.png" alt="profile-img" class="profile-img">
+                                    <span class="nick-name">초짜개발자</span>
+                                </a>
+                            </td>
+                            <td class="board-date-time">
+                                43분 전
+                            </td>
+                            <td class="board-infor-icon">                                
+                                <i class="fa-regular fa-comment-dots reple-icon"></i> <span class="reple-count">9</span>
+                                <i class="fa-solid fa-eye count-icon"></i> <span class="count-icon">52</span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="board-list-title">
+                                <a href="javascript:void(0)">자바스크립트 return문 이해가 되지 않아요 도와주세요....</a>
+                            </td>
+                            <td class="board-nick-name">
+                                <a href="javascript:void(0)">
+                                    <img src="img/profile/profile08.png" alt="profile-img" class="profile-img">
+                                    <span class="nick-name">codingJjang</span>
+                                </a>
+                            </td>
+                            <td class="board-date-time">
+                                59분 전
+                            </td>
+                            <td class="board-infor-icon">                                
+                                <i class="fa-regular fa-comment-dots reple-icon"></i> <span class="reple-count">150</span>
+                                <i class="fa-solid fa-eye count-icon"></i> <span class="count-icon">92</span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="board-list-title">
+                                <a href="javascript:void(0)">코딩테스트 공부법 알려주세요</a>
+                            </td>
+                            <td class="board-nick-name">
+                                <a href="javascript:void(0)">
+                                    <img src="img/profile/profile05.png" alt="profile-img" class="profile-img">
+                                    <span class="nick-name">frontCoding</span>
+                                </a>
+                            </td>
+                            <td class="board-date-time">
+                                1시간 전
+                            </td>
+                            <td class="board-infor-icon">                                
+                                <i class="fa-regular fa-comment-dots reple-icon"></i> <span class="reple-count">12</span>
+                                <i class="fa-solid fa-eye count-icon"></i> <span class="count-icon">2</span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="board-list-title">
+                                <a href="javascript:void(0)">서울 마포 스터디 모집합니다</a>
+                            </td>
+                            <td class="board-nick-name">
+                                <a href="javascript:void(0)">
+                                    <img src="img/profile/profile06.png" alt="profile-img" class="profile-img">
+                                    <span class="nick-name">아직초보입니다</span>
+                                </a>
+                            </td>
+                            <td class="board-date-time">
+                                1시간 전
+                            </td>
+                            <td class="board-infor-icon">                                
+                                <i class="fa-regular fa-comment-dots reple-icon"></i> <span class="reple-count">2</span>
+                                <i class="fa-solid fa-eye count-icon"></i> <span class="count-icon">23</span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="board-list-title">
+                                <a href="javascript:void(0)">자바질문있어요</a>
+                            </td>
+                            <td class="board-nick-name">
+                                <a href="javascript:void(0)">
+                                    <img src="img/profile/profile05.png" alt="profile-img" class="profile-img">
+                                    <span class="nick-name">자바가사람자바</span>
+                                </a>
+                            </td>
+                            <td class="board-date-time">
+                                1시간 전
+                            </td>
+                            <td class="board-infor-icon">                                
+                                <i class="fa-regular fa-comment-dots reple-icon"></i> <span class="reple-count">9</span>
+                                <i class="fa-solid fa-eye count-icon"></i> <span class="count-icon">33</span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="board-list-title">
+                                <a href="javascript:void(0)">이클립스랑 인텔리제이 중에</a>
+                            </td>
+                            <td class="board-nick-name">
+                                <a href="javascript:void(0)">
+                                    <img src="img/profile/profile08.png" alt="profile-img" class="profile-img">
+                                    <span class="nick-name">아기상어</span>
+                                </a>
+                            </td>
+                            <td class="board-date-time">
+                                1시간 전
+                            </td>
+                            <td class="board-infor-icon">                                
+                                <i class="fa-regular fa-comment-dots reple-icon"></i> <span class="reple-count">2</span>
+                                <i class="fa-solid fa-eye count-icon"></i> <span class="count-icon">23</span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="board-list-title">
+                                <a href="javascript:void(0)">이직때문에 고민입니다.</a>
+                            </td>
+                            <td class="board-nick-name">
+                                <a href="javascript:void(0)">
+                                    <img src="img/profile/profile01.png" alt="profile-img" class="profile-img">
+                                    <span class="nick-name">프로야근러</span>
+                                </a>
+                            </td>
+                            <td class="board-date-time">
+                                1시간 전
+                            </td>
+                            <td class="board-infor-icon">                                
+                                <i class="fa-regular fa-comment-dots reple-icon"></i> <span class="reple-count">8</span>
+                                <i class="fa-solid fa-eye count-icon"></i> <span class="count-icon">48</span>
+                            </td>
+                        </tr>                       
+
+                        <tr>
+                            <td class="board-list-title">
+                                <a href="javascript:void(0)">mySql 질문있어요</a>
+                            </td>
+                            <td class="board-nick-name">
+                                <a href="javascript:void(0)">
+                                    <img src="img/profile/profile02.png" alt="profile-img" class="profile-img">
+                                    <span class="nick-name">엑셀대마왕</span>
+                                </a>
+                            </td>
+                            <td class="board-date-time">
+                                1시간 전
+                            </td>
+                            <td class="board-infor-icon">                                
+                                <i class="fa-regular fa-comment-dots reple-icon"></i> <span class="reple-count">12</span>
+                                <i class="fa-solid fa-eye count-icon"></i> <span class="count-icon">53</span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="board-list-title">
+                                <a href="javascript:void(0)">비주얼스튜디오 오류가 났어요.</a>
+                            </td>
+                            <td class="board-nick-name">
+                                <a href="javascript:void(0)">
+                                    <img src="img/profile/profile07.png" alt="profile-img" class="profile-img">
+                                    <span class="nick-name">구구</span>
+                                </a>
+                            </td>
+                            <td class="board-date-time">
+                                2시간 전
+                            </td>
+                            <td class="board-infor-icon">                                
+                                <i class="fa-regular fa-comment-dots reple-icon"></i> <span class="reple-count">4</span>
+                                <i class="fa-solid fa-eye count-icon"></i> <span class="count-icon">59</span>
+                            </td>
+                        </tr>
+
+                    </table><!--board-list-->
+
+                    <ul class="paging-ul">  
+                        <li class="paging-prev"><a href="javascript:void(0)">이전</a></li>                        
+                        <li class="paging-li on"><a href="javascript:void(0)">1</a></li>
+                        <li class="paging-li"><a href="javascript:void(0)">2</a></li>
+                        <li class="paging-li"><a href="javascript:void(0)">3</a></li>
+                        <li class="paging-li"><a href="javascript:void(0)">4</a></li>
+                        <li class="paging-li"><a href="javascript:void(0)">5</a></li>
+                        <li class="paging-li"><a href="javascript:void(0)">6</a></li>
+                        <li class="paging-li"><a href="javascript:void(0)">7</a></li>
+                        <li class="paging-li"><a href="javascript:void(0)">8</a></li>
+                        <li class="paging-li"><a href="javascript:void(0)">9</a></li>
+                        <li class="paging-li"><a href="javascript:void(0)">10</a></li>
+                        <li class="paging-next"><a href="javascript:void(0)">다음</a></li>
+                    </ul>
+
+                </article>
+
+                
+
+            </section><!--main-section-->
+            <section class="banner-section">
+                <img src="img/banner/banner01.jpg" alt="banner-img" class="banner-img">
+                <img src="img/banner/banner02.jpg" alt="banner-img" class="banner-img">
+            </section>
+        </main><!--main end-->
+
+        <footer>
+            <div class="footer-img-section">
+                <img src="img/logo.png" alt="footer-logo-section" class="footer-logo">
+            </div>
+            
+            <ul class="footer-fnb-ul">
+                <li class="footer-fnb-li"><a href="javascript:void(0)">회사소개</a></li>
+                <li class="footer-fnb-li"><a href="javascript:void(0)">공지사항</a></li>
+                <li class="footer-fnb-li"><a href="javascript:void(0)">연락처</a></li>
+                <li class="footer-fnb-li"><a href="javascript:void(0)">광고문의</a></li>
+                <li class="footer-fnb-li"><a href="javascript:void(0)">채용</a></li>
+            </ul> 
+            <div class="company-infor-section">
+                <ul class="company-ul">
+                    <li class="company-li">상호명 : codingIn | 대표 : 최 **</li>
+                    <li class="company-li">사업자 등록 번호 : 1**-1**-1**</li>
+                    <li class="company-li">주소 : 서울 강남구 **로 123 **호</li>
+                    <li class="company-li">고객센터 : 평일 9:00 ~ 18:00 점심시간 12:00 ~ 13:00</li>
+                    <li class="company-li">&copy; copy (주)코딩인 all right reserved</li>
+                </ul>
+            </div>
+            
+
+
+        </footer>
+    </div><!--wrap-->
+</body>
+</html>
