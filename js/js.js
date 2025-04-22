@@ -1,9 +1,9 @@
 
 /*ham nav script */
 
-let hamNav = document.querySelector(".ham-nav");
-let hamNavSection = document.querySelector(".ham-nav-section")
-let closeBtn = document.querySelector(".close-btn");
+let hamNav = document.querySelector(".ham_nav");
+let hamNavSection = document.querySelector(".ham_nav_section")
+let closeBtn = document.querySelector(".close_btn");
 
 hamNav.addEventListener("click",function(){
     hamNavSection.classList.add("on")
@@ -16,8 +16,8 @@ closeBtn.addEventListener("click",function(){
 //scroll src
 
 
-let mobileHeaderSectionTop = document.querySelector(".mobile-header-section").offsetTop;
-let mobileHeaderSection = document.querySelector(".mobile-header-section")
+let mobileHeaderSectionTop = document.querySelector(".mobile_header_section").offsetTop;
+let mobileHeaderSection = document.querySelector(".mobile_header_section")
 
 
 window.addEventListener("scroll",function(){
@@ -34,8 +34,8 @@ window.addEventListener("scroll",function(){
 
 // pc scroll
 
-let pcHeaderSectionTop = document.querySelector(".pc-header-section").offsetTop;
-let pcHeaderSection = document.querySelector(".pc-header-section")
+let pcHeaderSectionTop = document.querySelector(".pc_header_section").offsetTop;
+let pcHeaderSection = document.querySelector(".pc_header_section")
 
 window.addEventListener("scroll",function(){
     if(scrollY>pcHeaderSectionTop+50){
